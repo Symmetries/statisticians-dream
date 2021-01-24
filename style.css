@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* background: url("textures/Sky Anime Background.jpg");
+  background-repeat: round; */
+}
+
+canvas {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#reticle {
+  position: absolute;
+  color: grey;
+  z-index: 1;
+  font-size: 50px;
+  width: 100vw;
+  text-align: center;
+  margin: 50vh auto 0;
+  transform: translateY(-50%);
+}
+
+#labels,
+#legend {
+  position: absolute;
+  font-family: "Computer Modern Serif", serif;
+  color: black;
+  z-index: 1;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#labels {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 20px;
+}
+
+#title {
+  font-size: 3em;
+  font-variant: small-caps;
+}
+
+.katex {
+  font-size: 1em !important;
+}
+
+#legend {
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+#city {
+  font-size: 20px;
+}
